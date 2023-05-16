@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In | Pehran</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 400px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+
+    .sign-in-heading {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .signin-box label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .signin-box input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .continue-btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .continue-btn:hover {
+      background-color: #0069d9;
+    }
+
+    .agree-terms {
+      margin-top: 20px;
+      font-size: 12px;
+    }
+
+    .new-account-container {
+      margin-top: 20px;
+    }
+
+    .new-to-pehran {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .create-account-btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .create-account-btn:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="sign-in-heading">Sign In</h2>
+    <div class="signin-box">
+      <label for="emailPhone">Email or mobile phone number</label>
+      <input type="text" id="emailPhone" name="emailPhone" placeholder="Enter your email or phone number">
+      <button class="continue-btn">Continue</button>
+      <p class="agree-terms">By continuing, you agree to Pehran's <a href="signInOrRegister\PrivacyNotice.html">Privacy Notice</a>.</p>
+    </div>
+    <div class="new-account-container">
+      <p class="new-to-pehran">New to Pehran?</p>
+      <button class="create-account-btn">
+        <a href="register.html">Create your Pehran account</a>
+      </button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
